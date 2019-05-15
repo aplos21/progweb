@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">    
+    <title>Exercicio JS5</title>
+    
+    <style>
+        label{
+            display: inline-block;
+            width: 100px;
+            text-align: right;
+        }
+
+      button{
+            display: block;        
+            margin: 10px auto;
+      } 
+      
+      table{
+        margin: 50px;
+      }            
+      
+      .graph{
+        border: 1px solid black;
+        position: fixed;
+      }
+      
+      td{
+        vertical-align: bottom;  
+      }
+
+     /*
+      .div-graph {
+        background-color: red;        
+        display: inline-block;                        
+      }
+      */
+    </style>
+
+ 
+</head>
+<body>
+    <h1>Um Gráfico de Barras</h1>
+    <label>Informe a altura das barras</label>
+    <input type="text" class="input-bar" id="bar-1">
+    <input type="text" class="input-bar" id="bar-2">
+    <input type="text" class="input-bar" id="bar-3">
+    <input type="text" class="input-bar" id="bar-4">
+    <input type="text" class="input-bar" id="bar-5"> <br> <br>
+
+    <label>Informe a largura das barras</label>
+    <input type="text"  id="bar-width"> 
+
+    <button id="btn-draw">Desenhar o gráfico</button> 
+    
+    <table>
+        <tbody>
+            <tr>
+                <td> <div class="div-graph" id="div1">&nbsp;</div> </td>
+                <td> <div class="div-graph" id="div2">&nbsp;</div> </td>
+                <td> <div class="div-graph" id="div3">&nbsp;</div> </td>
+                <td> <div class="div-graph" id="div4">&nbsp;</div> </td>
+                <td> <div class="div-graph" id="div5">&nbsp;</div> </td>
+            </tr>            
+        </tbody>
+    </table>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body{
+  background-color: #CEE3F6;
+  background-image: url(img/rome.png);
+  background-position: center 0em;
+  background-repeat: no-repeat;
+}
+
+.caixa-texto{
+    margin-top: 70px;
+    margin-left: 270px;
+    padding: 0px 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 15px solid rgba(97,56,11,0.8);
+    height: 260px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px #000,
+                1px 1px 1px 1px inset #000;
+}
