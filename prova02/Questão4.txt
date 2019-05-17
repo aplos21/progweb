@@ -1,0 +1,12 @@
+<!-- mateus medeiros de souza -->
+
+
+
+Closures -> função interna que tem acesso a varáveis de uma função externa - seguindo uma cadeia de escopo.
+
+
+1 -> E criado uma varável que recebe a função foo.
+
+2 -> Após colocar 4 na variável moo sobre parâmetro 2, como na função já tinha o valor 2, então dentro do console.log(2+4).
+
+3 -> Na proxima chamada console.log((2+6) como a função foi chamada novamente então a variável baz foi incrementada +2;

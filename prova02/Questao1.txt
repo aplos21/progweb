@@ -1,0 +1,18 @@
+1 -- > head não pode estar dentro do body.
+2 -- > o pararagrafo p deve estar dentro do body onde contem o conteudo da pagina e não no head.
+3 -- > o comando:
+	var body = document.body;
+    body.style.backgroundColor = "blue";
+
+    e um script deve estar entre <script> </script> e não entre <style> </style>
+    
+4 -- > o comando:
+
+	<script> 
+
+	var body = document.body;
+    body.style.backgroundColor = "blue";
+
+    </script> 
+
+deve estar entre <body></body> não no head
