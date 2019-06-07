@@ -27,6 +27,8 @@
    background-position: -484px -2px;
    width: 10px;
    height: 10px;
+   z-index: 1;
+
    position: relative;
 }
 .um {
@@ -35,6 +37,7 @@
    width: 10px;
    height: 10px;
    position: relative;
+   z-index: 1;
 }
 
 .dois {
@@ -43,6 +46,7 @@
    width: 10px;
    height: 10px;
    position: relative;
+   z-index: 1;
 }
 
 .tres {
@@ -51,6 +55,7 @@
    width: 10px;
    height: 10px;
    position: relative;
+   z-index: 1;
 }
 
 .quatro {
@@ -59,6 +64,7 @@
    width: 10px;
    height: 10px;
    position: relative;
+   z-index: 1;
 }
 
 .cinco {
@@ -67,6 +73,7 @@
    width: 10px;
    height: 10px;
    position: relative;
+   z-index: 1;
 }
 
 .seis {
@@ -75,6 +82,7 @@
    width: 10px;
    height: 10px;
    position: relative;
+   z-index: 1;
 }
 
 .sete {
@@ -83,6 +91,7 @@
    width: 10px;
    height: 10px;
    position: relative;
+   z-index: 1;
 }
 
 .oito {
@@ -91,6 +100,7 @@
    width: 10px;
    height: 10px;
    position: relative;
+   z-index: 1;
 }
 
 .nove {
@@ -99,6 +109,7 @@
    width: 10px;
    height: 10px;
    position: relative;
+   z-index: 1;
 }
 
 
@@ -140,6 +151,8 @@
 }
 
 
+
+
 .pentossauro {
     width: 44px;
     height: 45px;
@@ -157,6 +170,26 @@
     height: 17px;
     background-image: url(sprites.png);
     background-position: -86px 2px;
+    position: absolute;
+    z-index: 1;
+}
+
+.botao {
+   background-image: url(sprites.png);
+   background-position: -4px -4px;
+   width: 35px;
+   height: 35px;
+   right: 280px;
+   top: 80px;
+   z-index: 1;
+   position: absolute;
+}
+
+.game {
+    width: 180px;
+    height: 20px;
+    background-position: -484px -15px;
+    background-image: url(sprites.png);
     position: absolute;
     z-index: 1;
 }
