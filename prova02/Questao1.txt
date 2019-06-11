@@ -1,3 +1,6 @@
+David: Todos os erros foram reportados corretamente, com exceção do último
+Nota: 1.5
+
 1 -- > head não pode estar dentro do body.
 2 -- > o pararagrafo p deve estar dentro do body onde contem o conteudo da pagina e não no head.
 3 -- > o comando:
