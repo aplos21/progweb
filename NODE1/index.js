@@ -1,6 +1,9 @@
-var Diretorios = require("fs");
-Diretorios.readdir("/home/icomp/", function(err, arquivos){
-  console.log(arquivos);
+var http = require("http");
+var file = require("fs");
+
+var val = file.readdirSync("./past")
+var server = http.createServer(function (req, res) {
+    res.end(val.join('\n'));
 });
-var arquivos = Diretorios.readdir("/home/icomp/");
-console.log(arquivos);
+
+server.listen(3000);
