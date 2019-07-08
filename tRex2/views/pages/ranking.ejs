@@ -7,18 +7,21 @@
 
 <table class="table">
   <thead>
-    <tr>
-      
+    <tr>  
       <th scope="col">Jogador</th>
       <th scope="col">Pontuação</th>
       <th scope="col">Data/Hora</th>
     </tr>
+    <% jogadas.forEach(function(jogada) { %>
+    	<tr>
+    		<td scope="col"><%= jogada.jogador.fullName -%></td>
+    		<td scope="col"><%= jogada.pontuacao -%></td>
+    		<td scope="col"><%= mostraDataHora(jogada.createdAt) -%></td>
+    	</tr>
+	<% }); %>
   </thead>
   
 </table>
-
-
-
 
 
  </div>
